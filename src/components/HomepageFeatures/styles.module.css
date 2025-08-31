@@ -1,0 +1,214 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+  width: 100%;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.featureIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 1rem;
+  background: linear-gradient(135deg, #02569B, #54C5F8);
+  border-radius: 50%;
+  box-shadow: 0 8px 32px rgba(2, 86, 155, 0.3);
+  transition: all 0.3s ease;
+}
+
+.featureIcon:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(2, 86, 155, 0.4);
+}
+
+.featureEmoji {
+  font-size: 3rem;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.techBadge {
+  display: inline-block;
+  background: linear-gradient(135deg, #02569B, #0273CB);
+  color: white;
+  padding: 0.5rem 1rem;
+  margin: 0.25rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(2, 86, 155, 0.2);
+  transition: all 0.3s ease;
+}
+
+.techBadge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(2, 86, 155, 0.3);
+}
+
+/* Sección de registro de errores */
+.errorSection {
+  background: var(--ifm-background-surface-color);
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  border: 2px solid var(--ifm-color-emphasis-300);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+.errorSection::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, 
+    var(--ifm-color-primary), 
+    var(--ifm-color-secondary), 
+    var(--ifm-color-success)
+  );
+}
+
+.errorCard {
+  background: var(--ifm-background-color);
+  padding: 2rem;
+  border-radius: 16px;
+  border: 2px solid var(--ifm-color-emphasis-200);
+  text-align: center;
+  height: 100%;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.errorCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 40px rgba(2, 86, 155, 0.15);
+  border-color: var(--ifm-color-primary-light);
+}
+
+.errorCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--ifm-color-primary);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.errorCard:hover::before {
+  transform: scaleX(1);
+}
+
+.errorCardIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.errorCard h4 {
+  margin: 1rem 0;
+  color: var(--ifm-color-primary);
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.errorCard p {
+  margin-bottom: 2rem;
+  color: var(--ifm-color-content-secondary);
+  line-height: 1.6;
+}
+
+.communityStats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.stat {
+  text-align: center;
+  padding: 1rem;
+}
+
+.statNumber {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+  line-height: 1;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(45deg, var(--ifm-color-primary), var(--ifm-color-primary-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.statLabel {
+  font-size: 0.9rem;
+  color: var(--ifm-color-content-secondary);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .features {
+    padding: 2rem 0;
+  }
+  
+  .featureIcon {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .featureEmoji {
+    font-size: 2rem;
+  }
+  
+  .techBadge {
+    font-size: 0.75rem;
+    padding: 0.375rem 0.75rem;
+  }
+  
+  .errorSection {
+    padding: 2rem 1rem;
+    margin: 1rem 0;
+  }
+  
+  .errorCard {
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .communityStats {
+    gap: 1.5rem;
+  }
+  
+  .statNumber {
+    font-size: 2rem;
+  }
+}
+
+/* Dark mode adjustments */
+[data-theme='dark'] .errorSection {
+  border-color: var(--ifm-color-emphasis-600);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme='dark'] .errorCard {
+  border-color: var(--ifm-color-emphasis-400);
+}

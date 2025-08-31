@@ -1,0 +1,118 @@
+{
+  "name": "Flutter Guía Completa",
+  "short_name": "Flutter Guía",
+  "description": "La documentación más completa de Flutter en español - De 0 a Producción",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#02569B",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "es",
+  "dir": "ltr",
+  "categories": ["education", "developer", "programming"],
+  "screenshots": [
+    {
+      "src": "/img/screenshots/desktop-screenshot.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Flutter Guía Completa - Vista Desktop"
+    },
+    {
+      "src": "/img/screenshots/mobile-screenshot.png", 
+      "sizes": "360x640",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Flutter Guía Completa - Vista Mobile"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/img/flutter-icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/img/flutter-icon-96.png", 
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/img/flutter-icon-128.png",
+      "sizes": "128x128", 
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/img/flutter-icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/img/flutter-icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/img/flutter-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png", 
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/img/flutter-icon-384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/flutter-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Comenzar con Flutter",
+      "short_name": "Comenzar",
+      "description": "Configurar entorno de desarrollo Flutter",
+      "url": "/docs/entorno/instalacion",
+      "icons": [
+        {
+          "src": "/img/shortcuts/setup-icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Guía de Desarrollo",
+      "short_name": "Desarrollo", 
+      "description": "Aprender a desarrollar apps Flutter",
+      "url": "/docs/intro",
+      "icons": [
+        {
+          "src": "/img/shortcuts/dev-icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Blog Flutter",
+      "short_name": "Blog",
+      "description": "Tips y novedades de Flutter",
+      "url": "/blog",
+      "icons": [
+        {
+          "src": "/img/shortcuts/blog-icon.png", 
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}

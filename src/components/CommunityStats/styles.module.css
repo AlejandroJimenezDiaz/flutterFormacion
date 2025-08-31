@@ -1,0 +1,390 @@
+.statsContainer {
+  background: var(--ifm-background-surface-color);
+  border-radius: 16px;
+  padding: 2rem;
+  margin: 2rem 0;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  margin: 0;
+  color: var(--ifm-color-primary);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.period {
+  background: var(--ifm-color-primary-lightest);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: 1px solid var(--ifm-color-primary-light);
+}
+
+.periodLabel {
+  color: var(--ifm-color-primary);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.statCard {
+  background: var(--ifm-background-color);
+  border: 2px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.3s ease;
+}
+
+.statCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(2, 86, 155, 0.1);
+  border-color: var(--ifm-color-primary-light);
+}
+
+.statIcon {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  flex-shrink: 0;
+}
+
+.statContent {
+  flex: 1;
+}
+
+.statValue {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--ifm-color-content);
+  line-height: 1;
+  margin-bottom: 0.25rem;
+}
+
+.statTitle {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--ifm-color-content-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.statTrend {
+  font-size: 0.85rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.statTrend.positive {
+  color: var(--ifm-color-success);
+}
+
+.statTrend.negative {
+  color: var(--ifm-color-danger);
+}
+
+.categorySection {
+  margin-bottom: 3rem;
+}
+
+.sectionTitle {
+  margin: 0 0 1.5rem 0;
+  color: var(--ifm-color-primary);
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--ifm-color-primary-lightest);
+}
+
+.categoryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.categoryItem {
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.categoryItem:hover {
+  border-color: var(--ifm-color-primary-light);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.categoryHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.categoryDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.categoryName {
+  font-weight: 600;
+  color: var(--ifm-color-content);
+  font-size: 1rem;
+}
+
+.categoryStats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.categoryStat {
+  text-align: center;
+}
+
+.categoryStatValue {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+  line-height: 1;
+}
+
+.categoryStatLabel {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--ifm-color-content-secondary);
+  margin-top: 0.25rem;
+}
+
+.categoryProgress {
+  background: var(--ifm-color-emphasis-200);
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.categoryProgressBar {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}
+
+.categoryResolution {
+  text-align: right;
+  font-size: 0.85rem;
+  color: var(--ifm-color-content-secondary);
+  font-weight: 600;
+}
+
+.timeMetrics {
+  margin-bottom: 3rem;
+}
+
+.timeGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.timeCard {
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.3s ease;
+}
+
+.timeCard:hover {
+  border-color: var(--ifm-color-primary-light);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.timeIcon {
+  width: 50px;
+  height: 50px;
+  background: var(--ifm-color-primary-lightest);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.timeContent {
+  flex: 1;
+}
+
+.timeValue {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+  line-height: 1;
+  margin-bottom: 0.25rem;
+}
+
+.timeLabel {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--ifm-color-content);
+  margin-bottom: 0.25rem;
+}
+
+.timeSubtext {
+  font-size: 0.85rem;
+  color: var(--ifm-color-content-secondary);
+  line-height: 1.3;
+}
+
+.recentActivity {
+  margin-bottom: 2rem;
+}
+
+.activityList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.activityItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.activityItem:hover {
+  border-color: var(--ifm-color-primary-light);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.activityIcon {
+  width: 40px;
+  height: 40px;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.activityContent {
+  flex: 1;
+}
+
+.activityText {
+  color: var(--ifm-color-content);
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin-bottom: 0.25rem;
+}
+
+.activityCategory {
+  background: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary);
+  padding: 0.125rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.activityTime {
+  color: var(--ifm-color-content-secondary);
+  font-size: 0.8rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .statsContainer {
+    padding: 1.5rem;
+  }
+  
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .statsGrid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .statCard {
+    padding: 1rem;
+  }
+  
+  .statIcon {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+  
+  .statValue {
+    font-size: 1.5rem;
+  }
+  
+  .categoryGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .timeGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .activityItem {
+    padding: 0.75rem;
+  }
+}
+
+/* Dark mode adjustments */
+[data-theme='dark'] .statsContainer {
+  border-color: var(--ifm-color-emphasis-600);
+}
+
+[data-theme='dark'] .statCard,
+[data-theme='dark'] .categoryItem,
+[data-theme='dark'] .timeCard,
+[data-theme='dark'] .activityItem {
+  border-color: var(--ifm-color-emphasis-400);
+}
+
+[data-theme='dark'] .categoryProgress {
+  background: var(--ifm-color-emphasis-400);
+}

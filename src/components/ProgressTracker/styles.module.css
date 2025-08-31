@@ -1,0 +1,292 @@
+/* Botón flotante de progreso */
+.progressButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  animation: slideInUp 0.3s ease-out;
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.progressLink {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #02569B 0%, #0277BD 100%);
+  color: white;
+  padding: 12px 16px;
+  border-radius: 25px;
+  text-decoration: none;
+  box-shadow: 0 4px 20px rgba(2, 86, 155, 0.3);
+  transition: all 0.3s ease;
+  gap: 8px;
+  min-width: 140px;
+}
+
+.progressLink:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 25px rgba(2, 86, 155, 0.4);
+  text-decoration: none;
+  color: white;
+}
+
+.progressIcon {
+  font-size: 1.2rem;
+}
+
+.progressText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.progressLabel {
+  font-size: 0.85rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.progressPercentage {
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* Botón completar sección */
+.completeButton {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  z-index: 998;
+  animation: bounceIn 0.5s ease-out;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.completeButtonInner {
+  background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+  color: white;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(76, 175, 80, 0.3);
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.completeButtonInner:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 25px rgba(76, 175, 80, 0.4);
+}
+
+/* Indicador de completado */
+.completedIndicator {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  z-index: 998;
+  background: #e8f5e8;
+  border: 2px solid #4CAF50;
+  border-radius: 25px;
+  padding: 8px 16px;
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.completedText {
+  color: #2e7d32;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* Modal de completado */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  animation: modalFadeIn 0.3s ease-out;
+}
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    backdrop-filter: blur(0px);
+  }
+  to {
+    opacity: 1;
+    backdrop-filter: blur(4px);
+  }
+}
+
+.modalContent {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  text-align: center;
+  max-width: 400px;
+  margin: 1rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  animation: modalSlideIn 0.3s ease-out;
+}
+
+@keyframes modalSlideIn {
+  from {
+    transform: scale(0.8) translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+}
+
+.modalIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  animation: bounceIcon 0.6s ease-out 0.2s both;
+}
+
+@keyframes bounceIcon {
+  0% { transform: scale(0); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+.modalContent h3 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.modalContent p {
+  color: #666;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.modalButton {
+  background: linear-gradient(135deg, #02569B 0%, #0277BD 100%);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.modalButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(2, 86, 155, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .progressButton {
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .progressLink {
+    padding: 10px 14px;
+    min-width: 120px;
+  }
+
+  .progressLabel {
+    font-size: 0.8rem;
+  }
+
+  .progressPercentage {
+    font-size: 1rem;
+  }
+
+  .completeButton {
+    bottom: 85px;
+    right: 15px;
+  }
+
+  .completedIndicator {
+    bottom: 85px;
+    right: 15px;
+  }
+
+  .completeButtonInner {
+    padding: 10px 14px;
+    font-size: 0.85rem;
+  }
+
+  .modalContent {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+
+  .modalIcon {
+    font-size: 2.5rem;
+  }
+
+  .modalContent h3 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .progressButton,
+  .completeButton,
+  .completedIndicator {
+    right: 10px;
+  }
+
+  .progressLink {
+    padding: 8px 12px;
+    min-width: 100px;
+  }
+
+  .progressLabel {
+    font-size: 0.75rem;
+  }
+
+  .progressPercentage {
+    font-size: 0.9rem;
+  }
+
+  .modalContent {
+    margin: 0.5rem;
+    padding: 1rem;
+  }
+}

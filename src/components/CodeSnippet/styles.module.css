@@ -1,0 +1,78 @@
+.codeSnippetContainer {
+  margin: 1.5rem 0;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background: var(--ifm-background-surface-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.codeSnippetContainer:hover {
+  box-shadow: 0 4px 16px rgba(2, 86, 155, 0.15);
+  transform: translateY(-2px);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 1.2rem;
+  background: linear-gradient(135deg, var(--ifm-color-primary), var(--ifm-color-primary-dark));
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.copyButton {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.copyButton:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: scale(1.05);
+}
+
+.copyButton.copied {
+  background: rgba(76, 175, 80, 0.8);
+  border-color: rgba(76, 175, 80, 1);
+}
+
+.codeContainer {
+  background: var(--ifm-background-surface-color);
+}
+
+.codeContainer pre {
+  margin: 0;
+  padding: 1.2rem !important;
+  background: transparent !important;
+  border-radius: 0 !important;
+}
+
+/* Dark mode adjustments */
+[data-theme='dark'] .codeSnippetContainer {
+  border-color: var(--ifm-color-emphasis-600);
+  background: var(--ifm-background-surface-color);
+}
+
+[data-theme='dark'] .header {
+  background: linear-gradient(135deg, var(--ifm-color-primary-darker), var(--ifm-color-primary-darkest));
+}

@@ -1,0 +1,332 @@
+/* Contenedor principal de registro */
+.registrationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  padding: 2rem 1rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+
+.registrationCard {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.registrationCard h2 {
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.registrationCard p {
+  color: #666;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+/* Formulario */
+.form {
+  text-align: left;
+}
+
+.formGroup {
+  margin-bottom: 1.5rem;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.formGroup input,
+.formGroup select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #e1e5e9;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+.formGroup input:focus,
+.formGroup select:focus {
+  outline: none;
+  border-color: #02569B;
+}
+
+.registerButton {
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(135deg, #02569B 0%, #0277BD 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.registerButton:hover {
+  transform: translateY(-2px);
+}
+
+/* Contenedor de progreso */
+.progressContainer {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  margin: 2rem 0;
+  border: 1px solid #e1e5e9;
+}
+
+/* Información del usuario */
+.userInfo {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e1e5e9;
+}
+
+.userHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.userAvatar {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.userDetails h3 {
+  margin: 0 0 0.25rem 0;
+  color: #333;
+  font-size: 1.25rem;
+}
+
+.userTypeLabel {
+  margin: 0 0 0.5rem 0;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.userDescription {
+  margin: 0;
+  color: #666;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+/* Barra de progreso */
+.progressSummary {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.progressBar {
+  flex: 1;
+  height: 12px;
+  background: #f0f0f0;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: #02569B;
+  border-radius: 6px;
+  transition: width 0.3s ease;
+}
+
+.progressText {
+  font-weight: 600;
+  color: #333;
+  font-size: 0.9rem;
+  min-width: 90px;
+}
+
+/* Lista de secciones */
+.sectionsContainer h4 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.sectionsList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.sectionItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #e1e5e9;
+  transition: all 0.2s ease;
+}
+
+.sectionItem:hover {
+  background: #f0f2f5;
+}
+
+.sectionItem.completed {
+  background: #e8f5e8;
+  border-left-color: #4CAF50;
+}
+
+.sectionInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  margin-right: 1rem;
+}
+
+.sectionName {
+  font-weight: 500;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.sectionWeight {
+  color: #666;
+  font-size: 0.8rem;
+  background: #e1e5e9;
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+}
+
+.completed .sectionWeight {
+  background: #c8e6c9;
+  color: #2e7d32;
+}
+
+.completeButton {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.25rem;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.completeButton:hover {
+  transform: scale(1.1);
+}
+
+.completedButton {
+  animation: bounce 0.5s ease;
+}
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  80% {
+    transform: translateY(-5px);
+  }
+}
+
+/* Acciones */
+.actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e1e5e9;
+}
+
+.resetButton,
+.logoutButton {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.resetButton {
+  background: #ff9800;
+  color: white;
+}
+
+.resetButton:hover {
+  background: #f57c00;
+}
+
+.logoutButton {
+  background: #f44336;
+  color: white;
+  margin-left: auto;
+}
+
+.logoutButton:hover {
+  background: #d32f2f;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .userHeader {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
+
+  .userAvatar {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+
+  .progressSummary {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .progressText {
+    align-self: center;
+  }
+
+  .sectionInfo {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+
+  .actions {
+    flex-direction: column;
+  }
+
+  .logoutButton {
+    margin-left: 0;
+  }
+}
