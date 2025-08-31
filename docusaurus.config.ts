@@ -18,12 +18,12 @@ const config: Config = {
   url: 'https://alejandrojimenezdiaz.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/FlutterGuiaCompleta/',
+  baseUrl: '/flutterFormacion/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'alejandrojimenezdiaz', // Usually your GitHub org/user name.
-  projectName: 'FlutterGuiaCompleta', // Usually your repo name.
+  organizationName: 'AlejandroJimenezDiaz', // Usually your GitHub org/user name.
+  projectName: 'flutterFormacion', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -170,7 +170,7 @@ const config: Config = {
             },
             {
               label: '🎯 Plantillas de Proyecto',
-              to: '/templates',
+              href: 'https://github.com/flutter/samples',
             },
           ],
         },
@@ -198,11 +198,11 @@ const config: Config = {
             },
             {
               label: '⚙️ Configuración',
-              to: '/docs/entorno',
+              to: '/docs/entorno/instalacion',
             },
             {
               label: '📱 Despliegue',
-              to: '/docs/deployment',
+              to: '/docs/despliegue/google-play',
             },
           ],
         },

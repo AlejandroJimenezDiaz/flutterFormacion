@@ -42,8 +42,8 @@ Basada en **BeamMe**, una app real con:
 
 ## 🚀 **¿Cómo empezar?**
 
-1. **Lee la [Introducción](../docs/intro.md)** para entender el enfoque
-2. **Configura tu entorno** con nuestra [guía paso a paso](../docs/entorno/instalacion.md)  
+1. **Lee la [Introducción](/docs/intro)** para entender el enfoque
+2. **Configura tu entorno** con nuestra [guía paso a paso](/docs/entorno/instalacion)  
 3. **Sigue el tutorial** construyendo la aplicación completa
 4. **Despliega tu app** en Google Play y App Store
 
