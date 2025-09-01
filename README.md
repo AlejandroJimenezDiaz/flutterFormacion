@@ -208,4 +208,4 @@ Este proyecto está licenciado bajo la Licencia MIT - ve el archivo [LICENSE](LI
 
 *Hecho con ❤️ para la comunidad Flutter en español*
 
-</div>
+</div># GitHub Pages configurado con GitHub Actions
