@@ -1,0 +1,27 @@
+{
+  "id": "desarrollo/auth",
+  "title": "🔐 Sistema de Autenticación Completo",
+  "description": "Objetivo: Implementar autenticación robusta con Email, Google y Apple Sign-In",
+  "source": "@site/docs/desarrollo/auth.md",
+  "sourceDirName": "desarrollo",
+  "slug": "/desarrollo/auth",
+  "permalink": "/flutterFormacion/en/docs/desarrollo/auth",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/tu-usuario/flutter-guia-completa/tree/main/docs/desarrollo/auth.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "🏗️ Estructura del Proyecto",
+    "permalink": "/flutterFormacion/en/docs/proyecto/estructura"
+  },
+  "next": {
+    "title": "🏛️ Arquitectura y Patrones",
+    "permalink": "/flutterFormacion/en/docs/desarrollo/arquitectura"
+  }
+}

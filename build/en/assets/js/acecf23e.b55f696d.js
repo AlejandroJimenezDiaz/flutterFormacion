@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkflutter_guia_completa=self.webpackChunkflutter_guia_completa||[]).push([[1903],{1912:t=>{t.exports=JSON.parse('{"blogBasePath":"/flutterFormacion/en/blog","blogTitle":"Flutter Blog - Gu\xeda Completa","authorsListPath":"/flutterFormacion/en/blog/authors"}')}}]);

@@ -22,8 +22,10 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'AlejandroJimenezDiaz', // Usually your GitHub org/user name.
+  organizationName: 'alejandrojimenezdiaz', // Usually your GitHub org/user name.
   projectName: 'flutterFormacion', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

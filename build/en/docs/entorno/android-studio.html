@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-entorno/android-studio" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.8.1">
+<title data-rh="true">Android Studio para Flutter | Kamaleonte Flutter Academy</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://alejandrojimenezdiaz.github.io/flutterFormacion/en/img/flutter-social-card.png"><meta data-rh="true" name="twitter:image" content="https://alejandrojimenezdiaz.github.io/flutterFormacion/en/img/flutter-social-card.png"><meta data-rh="true" property="og:url" content="https://alejandrojimenezdiaz.github.io/flutterFormacion/en/docs/entorno/android-studio"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" property="og:locale:alternate" content="es"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Android Studio para Flutter | Kamaleonte Flutter Academy"><meta data-rh="true" name="description" content="Introducción"><meta data-rh="true" property="og:description" content="Introducción"><link data-rh="true" rel="icon" href="/flutterFormacion/en/img/flutter-icon.ico"><link data-rh="true" rel="canonical" href="https://alejandrojimenezdiaz.github.io/flutterFormacion/en/docs/entorno/android-studio"><link data-rh="true" rel="alternate" href="https://alejandrojimenezdiaz.github.io/flutterFormacion/docs/entorno/android-studio" hreflang="es"><link data-rh="true" rel="alternate" href="https://alejandrojimenezdiaz.github.io/flutterFormacion/en/docs/entorno/android-studio" hreflang="en"><link data-rh="true" rel="alternate" href="https://alejandrojimenezdiaz.github.io/flutterFormacion/docs/entorno/android-studio" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/flutterFormacion/en/blog/rss.xml" title="Kamaleonte Flutter Academy RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/flutterFormacion/en/blog/atom.xml" title="Kamaleonte Flutter Academy Atom Feed">
+
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-XXXXXXXXXX",{anonymize_ip:!0})</script>
+
+
+
+<link rel="icon" href="/flutterFormacion/en/img/flutter-icon.png">
+<link rel="manifest" href="/flutterFormacion/en/manifest.json">
+<meta name="theme-color" content="#02569B"><link rel="stylesheet" href="/flutterFormacion/en/assets/css/styles.05734be3.css">
+<script src="/flutterFormacion/en/assets/js/runtime~main.e2f6cc80.js" defer="defer"></script>
+<script src="/flutterFormacion/en/assets/js/main.f9c1f0ae.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}(),document.documentElement.setAttribute("data-announcement-bar-initially-dismissed",function(){try{return"true"===localStorage.getItem("docusaurus.announcement.dismiss")}catch(t){}return!1}())</script><div id="__docusaurus"><link rel="preload" as="image" href="/flutterFormacion/en/img/kamaleonte-logo.svg"><link rel="preload" as="image" href="/flutterFormacion/en/img/kamaleonte-logo-dark.svg"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><div class="theme-announcement-bar announcementBar_mb4j" style="background-color:#02569B;color:#ffffff" role="banner"><div class="announcementBarPlaceholder_vyr4"></div><div class="content_knG7 announcementBarContent_xLdY">🚀 <b>¡Nueva guía disponible!</b> Aprende Flutter desde cero hasta producción. <a target="_blank" rel="noopener noreferrer" href="/docs/intro">¡Comenzar ahora!</a></div><button type="button" aria-label="Close" class="clean-btn close closeButton_CVFx announcementBarClose_gvF7"><svg viewBox="0 0 15 15" width="14" height="14"><g stroke="currentColor" stroke-width="3.1"><path d="M.75.75l13.5 13.5M14.25.75L.75 14.25"></path></g></svg></button></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/flutterFormacion/en/"><div class="navbar__logo"><img src="/flutterFormacion/en/img/kamaleonte-logo.svg" alt="Kamaleonte Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/flutterFormacion/en/img/kamaleonte-logo-dark.svg" alt="Kamaleonte Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Kamaleonte Academy</b></a><a class="navbar__item navbar__link" href="/flutterFormacion/en/docs/intro">📚 Guía</a><a class="navbar__item navbar__link" href="/flutterFormacion/en/blog">📝 Blog</a><a class="navbar__item navbar__link" href="/flutterFormacion/en/progreso">📊 Mi Progreso</a><div class="navbar__item dropdown dropdown--hoverable"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">🛠️ Herramientas</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/flutterFormacion/en/docs/entorno/vscode">⚙️ Configuración VS Code</a></li><li><a class="dropdown__link" href="/flutterFormacion/en/tools/validator">🔍 Validador Flutter</a></li><li><a href="https://pub.dev" target="_blank" rel="noopener noreferrer" class="dropdown__link">📦 Paquetes Recomendados<svg width="12" height="12" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li><a href="https://github.com/flutter/samples" target="_blank" rel="noopener noreferrer" class="dropdown__link">🎯 Plantillas de Proyecto<svg width="12" height="12" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_nlXk"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>English</a><ul class="dropdown__menu"><li><a href="/flutterFormacion/docs/entorno/android-studio" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="es">Español</a></li><li><a href="/flutterFormacion/en/docs/entorno/android-studio" target="_self" rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang="en">English</a></li></ul></div><a href="https://github.com/tu-usuario/flutter-guia-completa" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-github-link" aria-label="GitHub repository"></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><main class="docMainContainer_TBSr docMainContainerEnhanced_lQrH"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Android Studio para Flutter</h1></header>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introducción">Introducción<a href="#introducción" class="hash-link" aria-label="Direct link to Introducción" title="Direct link to Introducción">​</a></h2>
+<p>Android Studio es el IDE oficial para el desarrollo de Android y una excelente opción para desarrollar aplicaciones Flutter. Proporciona herramientas integradas, depuración avanzada y una experiencia de desarrollo completa.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="instalación">Instalación<a href="#instalación" class="hash-link" aria-label="Direct link to Instalación" title="Direct link to Instalación">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-descargar-android-studio">1. Descargar Android Studio<a href="#1-descargar-android-studio" class="hash-link" aria-label="Direct link to 1. Descargar Android Studio" title="Direct link to 1. Descargar Android Studio">​</a></h3>
+<ul>
+<li>Ir a <a href="https://developer.android.com/studio" target="_blank" rel="noopener noreferrer">Android Studio</a></li>
+<li>Descargar la versión más reciente</li>
+<li>Disponible para Windows, macOS y Linux</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-instalación-en-diferentes-so">2. Instalación en diferentes SO<a href="#2-instalación-en-diferentes-so" class="hash-link" aria-label="Direct link to 2. Instalación en diferentes SO" title="Direct link to 2. Instalación en diferentes SO">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="windows">Windows<a href="#windows" class="hash-link" aria-label="Direct link to Windows" title="Direct link to Windows">​</a></h4>
+<ol>
+<li>Ejecutar el archivo <code>.exe</code> descargado</li>
+<li>Seguir el asistente de instalación</li>
+<li>Seleccionar componentes adicionales (Android Virtual Device)</li>
+</ol>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="macos">macOS<a href="#macos" class="hash-link" aria-label="Direct link to macOS" title="Direct link to macOS">​</a></h4>
+<ol>
+<li>Abrir el archivo <code>.dmg</code></li>
+<li>Arrastrar Android Studio a Aplicaciones</li>
+<li>Ejecutar desde Launchpad</li>
+</ol>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="linux-ubuntudebian">Linux (Ubuntu/Debian)<a href="#linux-ubuntudebian" class="hash-link" aria-label="Direct link to Linux (Ubuntu/Debian)" title="Direct link to Linux (Ubuntu/Debian)">​</a></h4>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token function" style="color:#d73a49">sudo</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">apt</span><span class="token plain"> update</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token function" style="color:#d73a49">sudo</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">apt</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">install</span><span class="token plain"> android-studio</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-configuración-inicial">3. Configuración Inicial<a href="#3-configuración-inicial" class="hash-link" aria-label="Direct link to 3. Configuración Inicial" title="Direct link to 3. Configuración Inicial">​</a></h3>
+<ol>
+<li>Abrir Android Studio</li>
+<li>Configurar Android SDK</li>
+<li>Instalar Android SDK Platform-Tools</li>
+<li>Configurar Android Virtual Device (AVD)</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="configuración-para-flutter">Configuración para Flutter<a href="#configuración-para-flutter" class="hash-link" aria-label="Direct link to Configuración para Flutter" title="Direct link to Configuración para Flutter">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-instalar-plugins">1. Instalar Plugins<a href="#1-instalar-plugins" class="hash-link" aria-label="Direct link to 1. Instalar Plugins" title="Direct link to 1. Instalar Plugins">​</a></h3>
+<p>En Android Studio:</p>
+<ol>
+<li>File → Settings (Preferences en Mac)</li>
+<li>Plugins</li>
+<li>Marketplace</li>
+<li>Buscar e instalar:<!-- -->
+<ul>
+<li><strong>Flutter</strong> (incluye Dart automáticamente)</li>
+<li><strong>Dart</strong> (si no se instala automáticamente)</li>
+</ul>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-verificar-flutter-sdk">2. Verificar Flutter SDK<a href="#2-verificar-flutter-sdk" class="hash-link" aria-label="Direct link to 2. Verificar Flutter SDK" title="Direct link to 2. Verificar Flutter SDK">​</a></h3>
+<ol>
+<li>File → Settings → Languages &amp; Frameworks → Flutter</li>
+<li>Configurar la ruta del Flutter SDK</li>
+<li>Aplicar cambios</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-configurar-android-sdk">3. Configurar Android SDK<a href="#3-configurar-android-sdk" class="hash-link" aria-label="Direct link to 3. Configurar Android SDK" title="Direct link to 3. Configurar Android SDK">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="sdk-platforms">SDK Platforms<a href="#sdk-platforms" class="hash-link" aria-label="Direct link to SDK Platforms" title="Direct link to SDK Platforms">​</a></h4>
+<p>Instalar las versiones necesarias:</p>
+<ul>
+<li>Android API 34 (Android 14)</li>
+<li>Android API 33 (Android 13)</li>
+<li>Android API 30 (Android 11) - recomendado para compatibilidad</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="sdk-tools">SDK Tools<a href="#sdk-tools" class="hash-link" aria-label="Direct link to SDK Tools" title="Direct link to SDK Tools">​</a></h4>
+<p>Verificar que estén instalados:</p>
+<ul>
+<li>Android SDK Build-Tools</li>
+<li>Android Emulator</li>
+<li>Android SDK Platform-Tools</li>
+<li>Android SDK Tools</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="crear-proyecto-flutter">Crear Proyecto Flutter<a href="#crear-proyecto-flutter" class="hash-link" aria-label="Direct link to Crear Proyecto Flutter" title="Direct link to Crear Proyecto Flutter">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-nuevo-proyecto">1. Nuevo Proyecto<a href="#1-nuevo-proyecto" class="hash-link" aria-label="Direct link to 1. Nuevo Proyecto" title="Direct link to 1. Nuevo Proyecto">​</a></h3>
+<ol>
+<li>File → New → New Flutter Project</li>
+<li>Seleccionar &quot;Flutter Application&quot;</li>
+<li>Configurar:<!-- -->
+<ul>
+<li>Project name: <code>mi_app_flutter</code></li>
+<li>Project location: Ruta del proyecto</li>
+<li>Description: Descripción del proyecto</li>
+<li>Package name: <code>com.miempresa.miapp</code></li>
+</ul>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-estructura-del-proyecto">2. Estructura del Proyecto<a href="#2-estructura-del-proyecto" class="hash-link" aria-label="Direct link to 2. Estructura del Proyecto" title="Direct link to 2. Estructura del Proyecto">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">mi_app_flutter/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── android/          # Código específico de Android</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── ios/              # Código específico de iOS</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── lib/              # Código Dart principal</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   └── main.dart     # Punto de entrada</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── test/             # Pruebas unitarias</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── pubspec.yaml      # Dependencias y configuración</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">└── README.md         # Documentación</span><br></span></code></pre></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="configuración-del-emulador">Configuración del Emulador<a href="#configuración-del-emulador" class="hash-link" aria-label="Direct link to Configuración del Emulador" title="Direct link to Configuración del Emulador">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-crear-avd-android-virtual-device">1. Crear AVD (Android Virtual Device)<a href="#1-crear-avd-android-virtual-device" class="hash-link" aria-label="Direct link to 1. Crear AVD (Android Virtual Device)" title="Direct link to 1. Crear AVD (Android Virtual Device)">​</a></h3>
+<ol>
+<li>Tools → AVD Manager</li>
+<li>Create Virtual Device</li>
+<li>Seleccionar hardware (ej: Pixel 4)</li>
+<li>Seleccionar system image (API 30+)</li>
+<li>Configurar AVD:<!-- -->
+<ul>
+<li>Name: <code>Flutter_Emulator</code></li>
+<li>Startup Orientation: Portrait</li>
+<li>Graphics: Hardware - GLES 2.0</li>
+</ul>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-configuraciones-recomendadas">2. Configuraciones Recomendadas<a href="#2-configuraciones-recomendadas" class="hash-link" aria-label="Direct link to 2. Configuraciones Recomendadas" title="Direct link to 2. Configuraciones Recomendadas">​</a></h3>
+<ul>
+<li><strong>RAM</strong>: 2048 MB mínimo</li>
+<li><strong>Storage</strong>: 2 GB internal storage</li>
+<li><strong>SD Card</strong>: 512 MB (opcional)</li>
+<li><strong>Snapshot</strong>: Activar para inicio rápido</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="desarrollo-con-android-studio">Desarrollo con Android Studio<a href="#desarrollo-con-android-studio" class="hash-link" aria-label="Direct link to Desarrollo con Android Studio" title="Direct link to Desarrollo con Android Studio">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-editor-de-código">1. Editor de Código<a href="#1-editor-de-código" class="hash-link" aria-label="Direct link to 1. Editor de Código" title="Direct link to 1. Editor de Código">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="características-principales">Características Principales<a href="#características-principales" class="hash-link" aria-label="Direct link to Características Principales" title="Direct link to Características Principales">​</a></h4>
+<ul>
+<li><strong>Syntax highlighting</strong> para Dart</li>
+<li><strong>Code completion</strong> inteligente</li>
+<li><strong>Error detection</strong> en tiempo real</li>
+<li><strong>Refactoring</strong> automático</li>
+<li><strong>Code formatting</strong> con Ctrl+Alt+L</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="atajos-útiles">Atajos Útiles<a href="#atajos-útiles" class="hash-link" aria-label="Direct link to Atajos Útiles" title="Direct link to Atajos Útiles">​</a></h4>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Ctrl+Space      - Code completion</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Alt+Enter       - Quick fix</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Ctrl+/          - Comentar línea</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Ctrl+Shift+/    - Comentar bloque</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Ctrl+D          - Duplicar línea</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Ctrl+Y          - Eliminar línea</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-hot-reload">2. Hot Reload<a href="#2-hot-reload" class="hash-link" aria-label="Direct link to 2. Hot Reload" title="Direct link to 2. Hot Reload">​</a></h3>
+<ul>
+<li><strong>Hot Reload</strong>: Ctrl+\ o botón rayo</li>
+<li><strong>Hot Restart</strong>: Ctrl+Shift+\</li>
+<li><strong>Full Restart</strong>: Ctrl+F5</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-depuración">3. Depuración<a href="#3-depuración" class="hash-link" aria-label="Direct link to 3. Depuración" title="Direct link to 3. Depuración">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="breakpoints">Breakpoints<a href="#breakpoints" class="hash-link" aria-label="Direct link to Breakpoints" title="Direct link to Breakpoints">​</a></h4>
+<ol>
+<li>Hacer clic en la línea donde se quiere el breakpoint</li>
+<li>Ejecutar en modo debug (Debug button o Shift+F9)</li>
+<li>La app se pausará en el breakpoint</li>
+</ol>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="variables-watch">Variables Watch<a href="#variables-watch" class="hash-link" aria-label="Direct link to Variables Watch" title="Direct link to Variables Watch">​</a></h4>
+<ol>
+<li>Click derecho en variable</li>
+<li>&quot;Add to Watches&quot;</li>
+<li>Ver valores en tiempo real</li>
+</ol>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="step-debugging">Step Debugging<a href="#step-debugging" class="hash-link" aria-label="Direct link to Step Debugging" title="Direct link to Step Debugging">​</a></h4>
+<ul>
+<li><strong>Step Over</strong> (F8): Siguiente línea</li>
+<li><strong>Step Into</strong> (F7): Entrar en función</li>
+<li><strong>Step Out</strong> (Shift+F8): Salir de función</li>
+<li><strong>Resume</strong> (F9): Continuar ejecución</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="herramientas-de-android-studio">Herramientas de Android Studio<a href="#herramientas-de-android-studio" class="hash-link" aria-label="Direct link to Herramientas de Android Studio" title="Direct link to Herramientas de Android Studio">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-profiler">1. Profiler<a href="#1-profiler" class="hash-link" aria-label="Direct link to 1. Profiler" title="Direct link to 1. Profiler">​</a></h3>
+<p>Tools → Flutter → Open Flutter Inspector</p>
+<ul>
+<li><strong>Widget Inspector</strong>: Ver jerarquía de widgets</li>
+<li><strong>Timeline</strong>: Analizar rendimiento</li>
+<li><strong>Memory</strong>: Monitorear uso de memoria</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-logcat">2. Logcat<a href="#2-logcat" class="hash-link" aria-label="Direct link to 2. Logcat" title="Direct link to 2. Logcat">​</a></h3>
+<p>Ver logs de la aplicación:</p>
+<ol>
+<li>View → Tool Windows → Logcat</li>
+<li>Filtrar por package name</li>
+<li>Niveles de log: Verbose, Debug, Info, Warn, Error</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-device-file-explorer">3. Device File Explorer<a href="#3-device-file-explorer" class="hash-link" aria-label="Direct link to 3. Device File Explorer" title="Direct link to 3. Device File Explorer">​</a></h3>
+<p>Ver sistema de archivos del emulador/dispositivo:</p>
+<ol>
+<li>View → Tool Windows → Device File Explorer</li>
+<li>Navegar por <code>/data/data/com.miempresa.miapp/</code></li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="configuración-avanzada">Configuración Avanzada<a href="#configuración-avanzada" class="hash-link" aria-label="Direct link to Configuración Avanzada" title="Direct link to Configuración Avanzada">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-code-style">1. Code Style<a href="#1-code-style" class="hash-link" aria-label="Direct link to 1. Code Style" title="Direct link to 1. Code Style">​</a></h3>
+<p>File → Settings → Editor → Code Style → Dart</p>
+<ul>
+<li>Line length: 80 characters</li>
+<li>Indentation: 2 spaces</li>
+<li>Activar &quot;Format on save&quot;</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-live-templates">2. Live Templates<a href="#2-live-templates" class="hash-link" aria-label="Direct link to 2. Live Templates" title="Direct link to 2. Live Templates">​</a></h3>
+<p>Crear snippets de código reutilizables:</p>
+<ol>
+<li>File → Settings → Editor → Live Templates</li>
+<li>Crear nuevo template para StatefulWidget, StatelessWidget, etc.</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-git-integration">3. Git Integration<a href="#3-git-integration" class="hash-link" aria-label="Direct link to 3. Git Integration" title="Direct link to 3. Git Integration">​</a></h3>
+<ul>
+<li><strong>VCS</strong> menu para operaciones Git</li>
+<li><strong>Commit</strong> con Ctrl+K</li>
+<li><strong>Push</strong> con Ctrl+Shift+K</li>
+<li><strong>Pull</strong> con Ctrl+T</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="plugins-útiles">Plugins Útiles<a href="#plugins-útiles" class="hash-link" aria-label="Direct link to Plugins Útiles" title="Direct link to Plugins Útiles">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-plugins-esenciales">1. Plugins Esenciales<a href="#1-plugins-esenciales" class="hash-link" aria-label="Direct link to 1. Plugins Esenciales" title="Direct link to 1. Plugins Esenciales">​</a></h3>
+<ul>
+<li><strong>Flutter Intl</strong>: Internacionalización</li>
+<li><strong>Awesome Flutter Snippets</strong>: Snippets útiles</li>
+<li><strong>Bloc</strong>: Para manejo de estado</li>
+<li><strong>Flutter Riverpod Snippets</strong>: Para Riverpod</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-instalación-de-plugins">2. Instalación de Plugins<a href="#2-instalación-de-plugins" class="hash-link" aria-label="Direct link to 2. Instalación de Plugins" title="Direct link to 2. Instalación de Plugins">​</a></h3>
+<ol>
+<li>File → Settings → Plugins</li>
+<li>Marketplace</li>
+<li>Buscar plugin</li>
+<li>Install</li>
+<li>Restart IDE</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="optimización-de-rendimiento">Optimización de Rendimiento<a href="#optimización-de-rendimiento" class="hash-link" aria-label="Direct link to Optimización de Rendimiento" title="Direct link to Optimización de Rendimiento">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-configuración-de-android-studio">1. Configuración de Android Studio<a href="#1-configuración-de-android-studio" class="hash-link" aria-label="Direct link to 1. Configuración de Android Studio" title="Direct link to 1. Configuración de Android Studio">​</a></h3>
+<ul>
+<li><strong>Increase heap size</strong>: Help → Change Memory Settings</li>
+<li><strong>Disable unused plugins</strong>: File → Settings → Plugins</li>
+<li><strong>Update regularmente</strong>: Help → Check for Updates</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-gradle-settings">2. Gradle Settings<a href="#2-gradle-settings" class="hash-link" aria-label="Direct link to 2. Gradle Settings" title="Direct link to 2. Gradle Settings">​</a></h3>
+<p>En <code>android/gradle.properties</code>:</p>
+<div class="language-properties codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-properties codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">org.gradle.jvmargs=-Xmx4g -XX:MaxMetaspaceSize=512m</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">org.gradle.parallel=true</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">org.gradle.caching=true</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">org.gradle.daemon=true</span><br></span></code></pre></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="troubleshooting">Troubleshooting<a href="#troubleshooting" class="hash-link" aria-label="Direct link to Troubleshooting" title="Direct link to Troubleshooting">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-errores-comunes">1. Errores Comunes<a href="#1-errores-comunes" class="hash-link" aria-label="Direct link to 1. Errores Comunes" title="Direct link to 1. Errores Comunes">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="flutter-sdk-not-found">&quot;Flutter SDK not found&quot;<a href="#flutter-sdk-not-found" class="hash-link" aria-label="Direct link to &quot;Flutter SDK not found&quot;" title="Direct link to &quot;Flutter SDK not found&quot;">​</a></h4>
+<ol>
+<li>File → Settings → Languages &amp; Frameworks → Flutter</li>
+<li>Configurar ruta correcta del Flutter SDK</li>
+<li>Aplicar y reiniciar</li>
+</ol>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="android-license-status-unknown">&quot;Android license status unknown&quot;<a href="#android-license-status-unknown" class="hash-link" aria-label="Direct link to &quot;Android license status unknown&quot;" title="Direct link to &quot;Android license status unknown&quot;">​</a></h4>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">flutter doctor --android-licenses</span><br></span></code></pre></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="emulador-lento">Emulador lento<a href="#emulador-lento" class="hash-link" aria-label="Direct link to Emulador lento" title="Direct link to Emulador lento">​</a></h4>
+<ol>
+<li>Verificar que Hyper-V esté habilitado (Windows)</li>
+<li>Aumentar RAM del AVD</li>
+<li>Usar hardware acceleration</li>
+</ol>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="gradle-build-failed">&quot;Gradle build failed&quot;<a href="#gradle-build-failed" class="hash-link" aria-label="Direct link to &quot;Gradle build failed&quot;" title="Direct link to &quot;Gradle build failed&quot;">​</a></h4>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token builtin class-name">cd</span><span class="token plain"> android</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">./gradlew clean</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token builtin class-name">cd</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">..</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">flutter clean</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">flutter pub get</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-performance-issues">2. Performance Issues<a href="#2-performance-issues" class="hash-link" aria-label="Direct link to 2. Performance Issues" title="Direct link to 2. Performance Issues">​</a></h3>
+<ul>
+<li>Cerrar proyectos innecesarios</li>
+<li>Limpiar cache: File → Invalidate Caches and Restart</li>
+<li>Verificar espacio en disco disponible</li>
+<li>Actualizar a la última versión</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="mejores-prácticas">Mejores Prácticas<a href="#mejores-prácticas" class="hash-link" aria-label="Direct link to Mejores Prácticas" title="Direct link to Mejores Prácticas">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-organización-del-proyecto">1. Organización del Proyecto<a href="#1-organización-del-proyecto" class="hash-link" aria-label="Direct link to 1. Organización del Proyecto" title="Direct link to 1. Organización del Proyecto">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">lib/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── main.dart</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── models/           # Modelos de datos</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── screens/          # Pantallas de la app</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── widgets/          # Widgets reutilizables</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── services/         # Servicios y APIs</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── utils/            # Utilidades y helpers</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">└── constants/        # Constantes</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-configuración-del-editor">2. Configuración del Editor<a href="#2-configuración-del-editor" class="hash-link" aria-label="Direct link to 2. Configuración del Editor" title="Direct link to 2. Configuración del Editor">​</a></h3>
+<ul>
+<li>Activar <strong>format on save</strong></li>
+<li>Usar <strong>linting</strong> (analysis_options.yaml)</li>
+<li>Configurar <strong>import organization</strong></li>
+<li>Usar <strong>code folding</strong> para mejor legibilidad</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-debugging-efectivo">3. Debugging Efectivo<a href="#3-debugging-efectivo" class="hash-link" aria-label="Direct link to 3. Debugging Efectivo" title="Direct link to 3. Debugging Efectivo">​</a></h3>
+<ul>
+<li>Usar <strong>print statements</strong> con moderación</li>
+<li>Preferir <strong>debugPrint</strong> sobre print</li>
+<li>Utilizar <strong>assert</strong> para validaciones</li>
+<li>Aprovechar <strong>Flutter Inspector</strong> para UI issues</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="recursos-adicionales">Recursos Adicionales<a href="#recursos-adicionales" class="hash-link" aria-label="Direct link to Recursos Adicionales" title="Direct link to Recursos Adicionales">​</a></h2>
+<ul>
+<li><a href="https://developer.android.com/studio/intro" target="_blank" rel="noopener noreferrer">Android Studio User Guide</a></li>
+<li><a href="https://docs.flutter.dev/development/tools/android-studio" target="_blank" rel="noopener noreferrer">Flutter Development in Android Studio</a></li>
+<li><a href="https://developer.android.com/studio/intro/keyboard-shortcuts" target="_blank" rel="noopener noreferrer">Keyboard Shortcuts Reference</a></li>
+<li><a href="https://docs.flutter.dev/testing/debugging" target="_blank" rel="noopener noreferrer">Debugging Flutter Apps</a></li>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/tu-usuario/flutter-guia-completa/tree/main/docs/entorno/android-studio.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#introducción" class="table-of-contents__link toc-highlight">Introducción</a></li><li><a href="#instalación" class="table-of-contents__link toc-highlight">Instalación</a><ul><li><a href="#1-descargar-android-studio" class="table-of-contents__link toc-highlight">1. Descargar Android Studio</a></li><li><a href="#2-instalación-en-diferentes-so" class="table-of-contents__link toc-highlight">2. Instalación en diferentes SO</a><ul><li><a href="#windows" class="table-of-contents__link toc-highlight">Windows</a></li><li><a href="#macos" class="table-of-contents__link toc-highlight">macOS</a></li><li><a href="#linux-ubuntudebian" class="table-of-contents__link toc-highlight">Linux (Ubuntu/Debian)</a></li></ul></li><li><a href="#3-configuración-inicial" class="table-of-contents__link toc-highlight">3. Configuración Inicial</a></li></ul></li><li><a href="#configuración-para-flutter" class="table-of-contents__link toc-highlight">Configuración para Flutter</a><ul><li><a href="#1-instalar-plugins" class="table-of-contents__link toc-highlight">1. Instalar Plugins</a></li><li><a href="#2-verificar-flutter-sdk" class="table-of-contents__link toc-highlight">2. Verificar Flutter SDK</a></li><li><a href="#3-configurar-android-sdk" class="table-of-contents__link toc-highlight">3. Configurar Android SDK</a><ul><li><a href="#sdk-platforms" class="table-of-contents__link toc-highlight">SDK Platforms</a></li><li><a href="#sdk-tools" class="table-of-contents__link toc-highlight">SDK Tools</a></li></ul></li></ul></li><li><a href="#crear-proyecto-flutter" class="table-of-contents__link toc-highlight">Crear Proyecto Flutter</a><ul><li><a href="#1-nuevo-proyecto" class="table-of-contents__link toc-highlight">1. Nuevo Proyecto</a></li><li><a href="#2-estructura-del-proyecto" class="table-of-contents__link toc-highlight">2. Estructura del Proyecto</a></li></ul></li><li><a href="#configuración-del-emulador" class="table-of-contents__link toc-highlight">Configuración del Emulador</a><ul><li><a href="#1-crear-avd-android-virtual-device" class="table-of-contents__link toc-highlight">1. Crear AVD (Android Virtual Device)</a></li><li><a href="#2-configuraciones-recomendadas" class="table-of-contents__link toc-highlight">2. Configuraciones Recomendadas</a></li></ul></li><li><a href="#desarrollo-con-android-studio" class="table-of-contents__link toc-highlight">Desarrollo con Android Studio</a><ul><li><a href="#1-editor-de-código" class="table-of-contents__link toc-highlight">1. Editor de Código</a><ul><li><a href="#características-principales" class="table-of-contents__link toc-highlight">Características Principales</a></li><li><a href="#atajos-útiles" class="table-of-contents__link toc-highlight">Atajos Útiles</a></li></ul></li><li><a href="#2-hot-reload" class="table-of-contents__link toc-highlight">2. Hot Reload</a></li><li><a href="#3-depuración" class="table-of-contents__link toc-highlight">3. Depuración</a><ul><li><a href="#breakpoints" class="table-of-contents__link toc-highlight">Breakpoints</a></li><li><a href="#variables-watch" class="table-of-contents__link toc-highlight">Variables Watch</a></li><li><a href="#step-debugging" class="table-of-contents__link toc-highlight">Step Debugging</a></li></ul></li></ul></li><li><a href="#herramientas-de-android-studio" class="table-of-contents__link toc-highlight">Herramientas de Android Studio</a><ul><li><a href="#1-profiler" class="table-of-contents__link toc-highlight">1. Profiler</a></li><li><a href="#2-logcat" class="table-of-contents__link toc-highlight">2. Logcat</a></li><li><a href="#3-device-file-explorer" class="table-of-contents__link toc-highlight">3. Device File Explorer</a></li></ul></li><li><a href="#configuración-avanzada" class="table-of-contents__link toc-highlight">Configuración Avanzada</a><ul><li><a href="#1-code-style" class="table-of-contents__link toc-highlight">1. Code Style</a></li><li><a href="#2-live-templates" class="table-of-contents__link toc-highlight">2. Live Templates</a></li><li><a href="#3-git-integration" class="table-of-contents__link toc-highlight">3. Git Integration</a></li></ul></li><li><a href="#plugins-útiles" class="table-of-contents__link toc-highlight">Plugins Útiles</a><ul><li><a href="#1-plugins-esenciales" class="table-of-contents__link toc-highlight">1. Plugins Esenciales</a></li><li><a href="#2-instalación-de-plugins" class="table-of-contents__link toc-highlight">2. Instalación de Plugins</a></li></ul></li><li><a href="#optimización-de-rendimiento" class="table-of-contents__link toc-highlight">Optimización de Rendimiento</a><ul><li><a href="#1-configuración-de-android-studio" class="table-of-contents__link toc-highlight">1. Configuración de Android Studio</a></li><li><a href="#2-gradle-settings" class="table-of-contents__link toc-highlight">2. Gradle Settings</a></li></ul></li><li><a href="#troubleshooting" class="table-of-contents__link toc-highlight">Troubleshooting</a><ul><li><a href="#1-errores-comunes" class="table-of-contents__link toc-highlight">1. Errores Comunes</a><ul><li><a href="#flutter-sdk-not-found" class="table-of-contents__link toc-highlight">&quot;Flutter SDK not found&quot;</a></li><li><a href="#android-license-status-unknown" class="table-of-contents__link toc-highlight">&quot;Android license status unknown&quot;</a></li><li><a href="#emulador-lento" class="table-of-contents__link toc-highlight">Emulador lento</a></li><li><a href="#gradle-build-failed" class="table-of-contents__link toc-highlight">&quot;Gradle build failed&quot;</a></li></ul></li><li><a href="#2-performance-issues" class="table-of-contents__link toc-highlight">2. Performance Issues</a></li></ul></li><li><a href="#mejores-prácticas" class="table-of-contents__link toc-highlight">Mejores Prácticas</a><ul><li><a href="#1-organización-del-proyecto" class="table-of-contents__link toc-highlight">1. Organización del Proyecto</a></li><li><a href="#2-configuración-del-editor" class="table-of-contents__link toc-highlight">2. Configuración del Editor</a></li><li><a href="#3-debugging-efectivo" class="table-of-contents__link toc-highlight">3. Debugging Efectivo</a></li></ul></li><li><a href="#recursos-adicionales" class="table-of-contents__link toc-highlight">Recursos Adicionales</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">📚 Documentación</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/flutterFormacion/en/docs/intro">🚀 Comenzar</a></li><li class="footer__item"><a class="footer__link-item" href="/flutterFormacion/en/docs/entorno/instalacion">⚙️ Configuración</a></li><li class="footer__item"><a class="footer__link-item" href="/flutterFormacion/en/docs/despliegue/google-play">📱 Despliegue</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">🌍 Comunidad Flutter</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://flutter.dev" target="_blank" rel="noopener noreferrer" class="footer__link-item">Flutter.dev<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://pub.dev" target="_blank" rel="noopener noreferrer" class="footer__link-item">Pub.dev<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://flutter.dev/community" target="_blank" rel="noopener noreferrer" class="footer__link-item">Flutter Community<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">🔗 Recursos</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/flutterFormacion/en/blog">📝 Blog</a></li><li class="footer__item"><a href="https://github.com/tu-usuario/flutter-guia-completa" target="_blank" rel="noopener noreferrer" class="footer__link-item">💻 GitHub<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://github.com/flutter/samples" target="_blank" rel="noopener noreferrer" class="footer__link-item">🎯 Ejemplos<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 Flutter Guía Completa. Construido con ❤️ y Docusaurus.</div></div></div></footer></div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "id": "desarrollo/navigation",
+  "title": "Navegación en Flutter",
+  "description": "Introducción",
+  "source": "@site/docs/desarrollo/navigation.md",
+  "sourceDirName": "desarrollo",
+  "slug": "/desarrollo/navigation",
+  "permalink": "/flutterFormacion/en/docs/desarrollo/navigation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/tu-usuario/flutter-guia-completa/tree/main/docs/desarrollo/navigation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

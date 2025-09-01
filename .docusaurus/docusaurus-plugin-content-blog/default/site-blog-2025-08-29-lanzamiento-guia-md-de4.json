@@ -1,0 +1,65 @@
+{
+  "permalink": "/flutterFormacion/en/blog/lanzamiento-flutter-guia-completa",
+  "editUrl": "https://github.com/tu-usuario/flutter-guia-completa/tree/main/blog/2025-08-29-lanzamiento-guia.md",
+  "source": "@site/blog/2025-08-29-lanzamiento-guia.md",
+  "title": "🚀 ¡Lanzamos Flutter Guía Completa!",
+  "description": "Hoy estamos emocionados de lanzar Flutter Guía Completa, la documentación más completa en español para aprender Flutter desde cero hasta producción.",
+  "date": "2025-08-29T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": false,
+      "label": "Flutter",
+      "permalink": "/flutterFormacion/en/blog/tags/flutter",
+      "description": "Flutter development framework"
+    },
+    {
+      "inline": false,
+      "label": "Anuncio",
+      "permalink": "/flutterFormacion/en/blog/tags/anuncio",
+      "description": "Anuncios y novedades"
+    },
+    {
+      "inline": false,
+      "label": "Documentación",
+      "permalink": "/flutterFormacion/en/blog/tags/documentacion",
+      "description": "Documentación técnica"
+    }
+  ],
+  "readingTime": 1.23,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Sébastien Lorber",
+      "title": "Docusaurus maintainer",
+      "url": "https://sebastienlorber.com",
+      "page": {
+        "permalink": "/flutterFormacion/en/blog/authors/all-sebastien-lorber-articles"
+      },
+      "socials": {
+        "x": "https://x.com/sebastienlorber",
+        "linkedin": "https://www.linkedin.com/in/sebastienlorber/",
+        "github": "https://github.com/slorber",
+        "newsletter": "https://thisweekinreact.com"
+      },
+      "imageURL": "https://github.com/slorber.png",
+      "key": "slorber"
+    }
+  ],
+  "frontMatter": {
+    "slug": "lanzamiento-flutter-guia-completa",
+    "title": "🚀 ¡Lanzamos Flutter Guía Completa!",
+    "authors": [
+      "slorber"
+    ],
+    "tags": [
+      "flutter",
+      "anuncio",
+      "documentacion"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/flutterFormacion/en/blog/welcome"
+  }
+}

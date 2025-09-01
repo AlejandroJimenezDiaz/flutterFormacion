@@ -1,0 +1,27 @@
+{
+  "id": "desarrollo/arquitectura",
+  "title": "🏛️ Arquitectura y Patrones",
+  "description": "Objetivo: Implementar Clean Architecture con BLoC Pattern para aplicaciones escalables",
+  "source": "@site/docs/desarrollo/arquitectura.md",
+  "sourceDirName": "desarrollo",
+  "slug": "/desarrollo/arquitectura",
+  "permalink": "/flutterFormacion/en/docs/desarrollo/arquitectura",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/tu-usuario/flutter-guia-completa/tree/main/docs/desarrollo/arquitectura.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "🔐 Sistema de Autenticación Completo",
+    "permalink": "/flutterFormacion/en/docs/desarrollo/auth"
+  },
+  "next": {
+    "title": "🔥 Integración con Firebase",
+    "permalink": "/flutterFormacion/en/docs/servicios/firebase"
+  }
+}

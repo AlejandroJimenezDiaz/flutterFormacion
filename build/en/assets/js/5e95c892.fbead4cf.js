@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkflutter_guia_completa=self.webpackChunkflutter_guia_completa||[]).push([[9647],{7121:(e,r,t)=>{t.r(r),t.d(r,{default:()=>p});t(6540);var u=t(4164),a=t(7559),s=t(5500),c=t(2831),l=t(1656),n=t(4848);function p(e){return(0,n.jsx)(s.e3,{className:(0,u.A)(a.G.wrapper.docsPages),children:(0,n.jsx)(l.A,{children:(0,c.v)(e.route.routes)})})}}}]);

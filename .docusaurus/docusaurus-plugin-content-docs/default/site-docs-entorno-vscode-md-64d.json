@@ -1,0 +1,27 @@
+{
+  "id": "entorno/vscode",
+  "title": "💻 VS Code para Flutter",
+  "description": "Objetivo: Configurar VS Code como el IDE perfecto para desarrollo Flutter profesional",
+  "source": "@site/docs/entorno/vscode.md",
+  "sourceDirName": "entorno",
+  "slug": "/entorno/vscode",
+  "permalink": "/flutterFormacion/en/docs/entorno/vscode",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/tu-usuario/flutter-guia-completa/tree/main/docs/entorno/vscode.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "🛠️ Instalación de Flutter",
+    "permalink": "/flutterFormacion/en/docs/entorno/instalacion"
+  },
+  "next": {
+    "title": "🏗️ Estructura del Proyecto",
+    "permalink": "/flutterFormacion/en/docs/proyecto/estructura"
+  }
+}

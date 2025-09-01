@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-basics/create-a-document",
+  "title": "Create a Document",
+  "description": "Documents are groups of pages connected through:",
+  "source": "@site/docs/tutorial-basics/create-a-document.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/create-a-document",
+  "permalink": "/flutterFormacion/en/docs/tutorial-basics/create-a-document",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/tu-usuario/flutter-guia-completa/tree/main/docs/tutorial-basics/create-a-document.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "🎓 Centro de Soporte para Practicantes",
+    "permalink": "/flutterFormacion/en/docs/comunidad/registro-errores"
+  },
+  "next": {
+    "title": "Create a Page",
+    "permalink": "/flutterFormacion/en/docs/tutorial-basics/create-a-page"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "comunidad/registro-errores",
+  "title": "🎓 Centro de Soporte para Practicantes",
+  "description": "Objetivo: Espacio supervisado para documentar, resolver y aprender de errores durante las prácticas",
+  "source": "@site/docs/comunidad/registro-errores.md",
+  "sourceDirName": "comunidad",
+  "slug": "/comunidad/registro-errores",
+  "permalink": "/flutterFormacion/en/docs/comunidad/registro-errores",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/tu-usuario/flutter-guia-completa/tree/main/docs/comunidad/registro-errores.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "🤖 Despliegue en Google Play Store",
+    "permalink": "/flutterFormacion/en/docs/despliegue/google-play"
+  },
+  "next": {
+    "title": "Create a Document",
+    "permalink": "/flutterFormacion/en/docs/tutorial-basics/create-a-document"
+  }
+}

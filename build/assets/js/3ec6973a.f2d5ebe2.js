@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkflutter_guia_completa=self.webpackChunkflutter_guia_completa||[]).push([[6672],{131:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/flutterFormacion/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":5,"blogDescription":"Tips, trucos y novedades de Flutter para desarrolladores","blogTitle":"Flutter Blog - Gu\xeda Completa"}}')}}]);

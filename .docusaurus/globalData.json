@@ -1,0 +1,138 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/flutterFormacion/en/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/flutterFormacion/en/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "comunidad/registro-errores",
+              "path": "/flutterFormacion/en/docs/comunidad/registro-errores",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "desarrollo/arquitectura",
+              "path": "/flutterFormacion/en/docs/desarrollo/arquitectura",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "desarrollo/auth",
+              "path": "/flutterFormacion/en/docs/desarrollo/auth",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "desarrollo/navigation",
+              "path": "/flutterFormacion/en/docs/desarrollo/navigation"
+            },
+            {
+              "id": "despliegue/app-store",
+              "path": "/flutterFormacion/en/docs/despliegue/app-store"
+            },
+            {
+              "id": "despliegue/google-play",
+              "path": "/flutterFormacion/en/docs/despliegue/google-play",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "entorno/android-studio",
+              "path": "/flutterFormacion/en/docs/entorno/android-studio"
+            },
+            {
+              "id": "entorno/instalacion",
+              "path": "/flutterFormacion/en/docs/entorno/instalacion",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "entorno/vscode",
+              "path": "/flutterFormacion/en/docs/entorno/vscode",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/flutterFormacion/en/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "proyecto/estructura",
+              "path": "/flutterFormacion/en/docs/proyecto/estructura",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "servicios/firebase",
+              "path": "/flutterFormacion/en/docs/servicios/firebase",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "servicios/payments",
+              "path": "/flutterFormacion/en/docs/servicios/payments"
+            },
+            {
+              "id": "tutorial-basics/congratulations",
+              "path": "/flutterFormacion/en/docs/tutorial-basics/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-blog-post",
+              "path": "/flutterFormacion/en/docs/tutorial-basics/create-a-blog-post",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-document",
+              "path": "/flutterFormacion/en/docs/tutorial-basics/create-a-document",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-page",
+              "path": "/flutterFormacion/en/docs/tutorial-basics/create-a-page",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/deploy-your-site",
+              "path": "/flutterFormacion/en/docs/tutorial-basics/deploy-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/markdown-features",
+              "path": "/flutterFormacion/en/docs/tutorial-basics/markdown-features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/manage-docs-versions",
+              "path": "/flutterFormacion/en/docs/tutorial-extras/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/translate-your-site",
+              "path": "/flutterFormacion/en/docs/tutorial-extras/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/flutterFormacion/en/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  },
+  "docusaurus-plugin-google-gtag": {
+    "default": {
+      "trackingID": [
+        "G-XXXXXXXXXX"
+      ],
+      "anonymizeIP": true,
+      "id": "default"
+    }
+  }
+}

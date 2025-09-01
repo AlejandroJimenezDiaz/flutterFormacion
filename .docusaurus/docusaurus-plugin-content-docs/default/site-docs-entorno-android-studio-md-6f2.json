@@ -1,0 +1,15 @@
+{
+  "id": "entorno/android-studio",
+  "title": "Android Studio para Flutter",
+  "description": "Introducción",
+  "source": "@site/docs/entorno/android-studio.md",
+  "sourceDirName": "entorno",
+  "slug": "/entorno/android-studio",
+  "permalink": "/flutterFormacion/en/docs/entorno/android-studio",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/tu-usuario/flutter-guia-completa/tree/main/docs/entorno/android-studio.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}
